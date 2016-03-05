@@ -28,9 +28,9 @@ var hamburger = function() {
 }
 
 var navAlt = function() {
-  var fromTop = $(window).scrollTop();
-  var windowHeight = $(window).height();
-  if (fromTop > windowHeight - 150) {
+  var x = $(window).scrollTop();
+  var y = $(window).height();
+  if ((x > y - 150 && x < y * 2 - 150) || (x > y * 3 - 150 && x < y * 4 - 150)) {
     $('nav').addClass('alt');
   } else {
     $('nav').removeClass('alt');
@@ -38,9 +38,11 @@ var navAlt = function() {
 }
 
 var navHide = function() {
-  var fromTop = $(window).scrollTop();
-  var windowHeight = $(window).height();
-  if (fromTop > windowHeight / 10 && !(fromTop > windowHeight - 50) || fromTop > windowHeight * 1.10) {
+  var x = $(window).scrollTop();
+  var y = $(window).height();
+  if ((x>y*0.10 && !(x>y-125)) || (x>y*1.10 && !(x>y*2-125)) || (x>y*2.10 && !(x>y*3-125)) || (x>y*3.10 && !(x>y*4-125))) {
+    $('nav').addClass('hide');
+  } else if (x > y * 4.10) {
     $('nav').addClass('hide');
   } else {
     $('nav').removeClass('hide');
