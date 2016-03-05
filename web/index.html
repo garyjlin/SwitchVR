@@ -54,8 +54,13 @@
         <h2>Aren't we beautiful?</h2>
       </div>
       <div class="main">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At a fugiat doloribus hic nostrum voluptatum magnam ab, quaerat cum veniam. Eius voluptates nam molestiae provident corporis fugit optio vitae magnam?</p>
-        <p>Qui tempora nemo numquam eveniet a adipisci maiores repudiandae doloribus repellat aliquid tempore, magni totam, molestias quae optio et praesentium accusamus quibusdam deserunt amet asperiores laborum incidunt. Facere, pariatur animi.</p>
+        <div class="gallery-wrapper">
+          <a href="img/moving-tiles.gif" data-lightbox="gallery"><img src="img/moving-tiles.gif"></a>
+          <a href="img/moving-tiles.gif" data-lightbox="gallery"><img src="img/moving-tiles.gif"></a>
+          <a href="img/moving-tiles.gif" data-lightbox="gallery"><img src="img/moving-tiles.gif"></a>
+          <a href="img/moving-tiles.gif" data-lightbox="gallery"><img src="img/moving-tiles.gif"></a>
+          <a href="img/moving-tiles.gif" data-lightbox="gallery"><img src="img/moving-tiles.gif"></a>
+        </div>
       </div>
     </div>
   </section>
@@ -80,8 +85,21 @@
         <h2>Have a question? Drop us a line down below!</h2>
       </div>
       <div class="main">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At a fugiat doloribus hic nostrum voluptatum magnam ab, quaerat cum veniam. Eius voluptates nam molestiae provident corporis fugit optio vitae magnam?</p>
-        <p>Qui tempora nemo numquam eveniet a adipisci maiores repudiandae doloribus repellat aliquid tempore, magni totam, molestias quae optio et praesentium accusamus quibusdam deserunt amet asperiores laborum incidunt. Facere, pariatur animi.</p>
+        <form id="contact-form" class="contact-form" action="#">
+          <p class="contact-name">
+            <input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+          </p>
+          <p class="contact-email">
+            <input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+          </p>
+          <p class="contact-message">
+            <textarea id="contact_message" placeholder="Your Message" name="message" rows="8" cols="40"></textarea>
+          </p>
+          <p class="contact-submit">
+            <a id="contact-submit" class="submit" href="mailto:hello@getswitchvr.com">Send Your Email</a>
+          </p>
+          <div id="response"></div>
+        </form>
       </div>
     </div>
   </section>
@@ -91,6 +109,7 @@
   </footer>
 
   <script src="js/build/jquery.min.js"></script>
+  <script src="js/build/lightbox.js"></script>
   <script src="js/build/scripts.js"></script>
 </body>
 </html>
