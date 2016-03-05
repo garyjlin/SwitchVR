@@ -31,7 +31,7 @@ var hamburger = function() {
 var navAlt = function() {
   var x = $(window).scrollTop();
   var y = $(window).height();
-  if ((x > y - 150 && x < y * 2 - 150) || (x > y * 3 - 150 && x < y * 4 - 150)) {
+  if ((x > $('section#about').offset().top - 150 && x < $('section#gallery').offset().top - 150) || (x > $('section#download').offset().top - 150 && x < $('section#contact').offset().top - 150)) {
     $('nav').addClass('alt');
   } else {
     $('nav').removeClass('alt');
@@ -39,11 +39,15 @@ var navAlt = function() {
 }
 
 var navHide = function() {
-  var x = $(window).scrollTop();
-  var y = $(window).height();
-  if ((x>y*0.10 && !(x>y-125)) || (x>y*1.10 && !(x>y*2-125)) || (x>y*2.10 && !(x>y*3-125)) || (x>y*3.10 && !(x>y*4-125))) {
+  var x = $(window).scrollTop(),
+      y = $(window).height();
+      s1 = $('section#about').offset().top;
+      s2 = $('section#gallery').offset().top;
+      s3 = $('section#download').offset().top;
+      s4 = $('section#contact').offset().top;
+  if ((x>100 && !(x>s1-125)) || (x>s1+100 && !(x>s2-125)) || (x>s2+100 && !(x>s3-125)) || (x>s3+100  && !(x>s4-125))) {
     $('nav').addClass('hide');
-  } else if (x > y * 4.10) {
+  } else if (x > s4 + 100) {
     $('nav').addClass('hide');
   } else {
     $('nav').removeClass('hide');
