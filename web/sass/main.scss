@@ -11,6 +11,10 @@
 
 //2-sections
 @import
-  "2-sections/home";
+  "2-sections/home",
+  "2-sections/about";
 
 //3-modules
+@import
+  "3-modules/nav",
+  "3-modules/hamburger";
