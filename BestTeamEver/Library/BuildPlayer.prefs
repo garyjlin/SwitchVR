@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Enabled</key>
+	<array>
+		<true/>
+		<true/>
+		<true/>
+		<true/>
+		<true/>
+		<true/>
+	</array>
+	<key>PathNames</key>
+	<array>
+		<string>Assets/_Scenes/_Loader.unity</string>
+		<string>Assets/_Scenes/_Welcome.unity</string>
+		<string>Assets/_Scenes/Freestyle.unity</string>
+		<string>Assets/_Scenes/Learn to Play.unity</string>
+		<string>Assets/_Scenes/Foxholes.unity</string>
+		<string>Assets/_Scenes/Lava Racer.unity</string>
+	</array>
+	<key>dashboard LastLocation</key>
+	<string>/Users/admin/Desktop/Mars Explorer.wdgt</string>
+	<key>iPhone LastLocation</key>
+	<string>/Users/admin/Desktop/Mars Explorer</string>
+	<key>standaloneOSXIntel LastLocation</key>
+	<string>/Users/admin/Desktop/MarsExplorer.app</string>
+	<key>standaloneOSXUniversal LastLocation</key>
+	<string>/Users/admin/Public/Mars Explorer 2.3.app</string>
+	<key>webplayer LastLocation</key>
+	<string>/Users/admin/Sites/atiserver/serv/sites/fun.theati.net/games/data/25/download/mars_explorer_1.9.4/marsexplorer.unity3d</string>
+</dict>
+</plist>

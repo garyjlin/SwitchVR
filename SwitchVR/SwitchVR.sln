@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchVR.CSharp.Plugins", "SwitchVR.CSharp.Plugins.csproj", "{CBE4B9F6-E415-30EE-1328-98899C33B02C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchVR.CSharp", "SwitchVR.CSharp.csproj", "{18B65A85-0F54-D7A6-414F-7D77A68F7521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchVR.CSharp.Editor", "SwitchVR.CSharp.Editor.csproj", "{90D0F5CC-B7A7-1A23-0488-C3B4E25519EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBE4B9F6-E415-30EE-1328-98899C33B02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE4B9F6-E415-30EE-1328-98899C33B02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE4B9F6-E415-30EE-1328-98899C33B02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE4B9F6-E415-30EE-1328-98899C33B02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B65A85-0F54-D7A6-414F-7D77A68F7521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B65A85-0F54-D7A6-414F-7D77A68F7521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B65A85-0F54-D7A6-414F-7D77A68F7521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B65A85-0F54-D7A6-414F-7D77A68F7521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D0F5CC-B7A7-1A23-0488-C3B4E25519EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D0F5CC-B7A7-1A23-0488-C3B4E25519EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D0F5CC-B7A7-1A23-0488-C3B4E25519EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D0F5CC-B7A7-1A23-0488-C3B4E25519EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
