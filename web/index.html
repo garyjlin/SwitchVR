@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>SwitchVR</title>
@@ -9,13 +10,17 @@
   <meta name="description" content="How fast can you switch?">
 
   <link rel="icon" href="img/icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 
   <nav>
     <a href="#home" class="logo scroll"></a>
-    <div class="hamburger-menu"><div class="bar"></div></div>
+    <div class="hamburger-menu">
+      <div class="bar"></div>
+    </div>
     <ul class="navbar">
       <li><a class="scroll" href="#home">Home</a></li>
       <li><a class="scroll" href="#about">About</a></li>
@@ -37,14 +42,94 @@
   <section id="about">
     <div class="wrapper">
       <div class="lead">
-        <h1>About SwitchVR</h1>
-        <h2>Learn about why you need SwitchVR Today!</h2>
+        <h1>SwitchVR</h1>
+        <h2>A cool game built for the Oculus Rift and the Leap Motion.</h2>
       </div>
       <div class="main">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae totam ipsum neque iste tempora, maiores odit temporibus ad recusandae explicabo quos alias commodi, nemo debitis, architecto voluptas quod natus fugiat.</p>
-        <p>Quos aut voluptate minima odio provident itaque necessitatibus sapiente, impedit labore quo excepturi voluptas cum distinctio eaque totam ea harum ipsam eum. Similique minus rerum temporibus quis dicta est, earum!</p>
+        <div class="accordion" id="accordionArea">
+          <div class="accordion-group">
+            <div class="accordion-heading accordionize">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea">
+              Inspiration
+              <span class="fa fa-chevron-down"></span>
+            </a>
+            </div>
+            <div id="oneArea" class="accordion-body collapse">
+              <div class="accordion-inner">
+                Coming into QHacks, we didn't really have an idea for what we wanted to build so we decided to have a little fun and play with tech many of us have never used before! So we ended up grabbing the Oculus Rift and the Leap Motion and got cracking! We decided to make a fun little game inspired by the old tap-tap style games we all miss so much! And thus, SwitchVR was born!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-group">
+            <div class="accordion-heading accordionize">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#twoArea">
+              What it does
+              <span class="fa fa-chevron-down"></span>
+            </a>
+            </div>
+            <div id="twoArea" class="accordion-body collapse">
+              <div class="accordion-inner">
+                SwitchVR uses some of the most cutting-edge technologies and this game is not meant for just any user! When we play tap-tap games, we tend to "get in the zone" and go for that next high score. We wanted to take that experience to the next level by integrating it with virtual reality as the medium of the game. The way it works is it uses the Oculus Rift as the camera and view controller and the Leap Motion as the gesture based controller to interact with the tiles coming your way. This makes to an interesting combination that really puts you into the world of tap-tap games. Trying to break that new high score? Why not literally put yourself in the game?!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-group">
+            <div class="accordion-heading accordionize">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#threeArea">
+              How we built it
+              <span class="fa fa-chevron-down"></span>
+            </a>
+            </div>
+            <div id="threeArea" class="accordion-body collapse">
+              <div class="accordion-inner">
+                The game itself was built on top of the Unity gaming engine using C# as well as the Oculus Rift and Leap Motion SDKs. We split the main components amongst each other and tackled our own tasks individually and later came back to bring everything together.<br /><br />
+                In addition to the game itself, we also built a landing page to showcase our game and giving us, as the company, an identity to build our brand. Our technology stack for the website includes HTML, SASS, JavaScript, Gulp, npm, and more!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-group">
+            <div class="accordion-heading accordionize">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fourArea">
+              Challenges we ran into
+              <span class="fa fa-chevron-down"></span>
+            </a>
+            </div>
+            <div id="fourArea" class="accordion-body collapse">
+              <div class="accordion-inner">
+                Many of us have never used Unity or have ever worked with any kind of VR before so there was a steep learning curve for all of us. If you've ever used Unity before, you know how it has some of its quirks. We got stumped many times trying to figure out some of the most basic functions of Unity and even though it was challenging, it was something we're proud to have experienced.<br /><br />
+                In particular, some of the challenges we came across were collision triggering, shifting lanes, reproducing targets infinitely, movement across the lanes, and adaptive difficulty as the user plays longer.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-group">
+            <div class="accordion-heading accordionize">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fiveArea">
+              Accomplishments that we're proud of
+              <span class="fa fa-chevron-down"></span>
+            </a>
+            </div>
+            <div id="fiveArea" class="accordion-body collapse">
+              <div class="accordion-inner">
+                Our biggest accomplishment was actually pushing through all of the difficulties and finishing a project from start to finish. It's a tough thing to do in a weekend and we're really proud to have overcome it.<br /><br />
+                Our next biggest accomplishment was being able to build something using a platform we have never used before. It was a huge learning experience and we all grew so much through it!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-group">
+            <div class="accordion-heading accordionize">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#sixArea">
+              What we learned
+              <span class="fa fa-chevron-down"></span>
+            </a>
+            </div>
+            <div id="sixArea" class="accordion-body collapse">
+              <div class="accordion-inner">
+                We all learned so much that a paragraph wouldn't be nearly enough to highlight even a fraction of it! Things like working with VR, Augmented Reality, playing with the Oculus Rift and the Leap Motion, working around in Unity, resource design, the user experience and interface for a virtual reality game. All this only scratches the surface of the things we learned at QHacks!
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
   </section>
 
   <section id="gallery">
@@ -109,7 +194,9 @@
   </footer>
 
   <script src="js/build/jquery.min.js"></script>
+  <script src="js/build/bootstrap.min.js"></script>
   <script src="js/build/lightbox.js"></script>
   <script src="js/build/scripts.js"></script>
 </body>
+
 </html>
